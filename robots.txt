@@ -1,1 +1,1 @@
-Sitemap: http://barber.samesies.io/sitemap.xml
+Sitemap: http://emioud.github.io/sitemap.xml
