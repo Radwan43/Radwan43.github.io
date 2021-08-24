@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://radwan43.github.io/Radwan43//feed.xml" rel="self" type="application/atom+xml" /><link href="https://radwan43.github.io/Radwan43//" rel="alternate" type="text/html" /><updated>2021-08-24T22:30:54+02:00</updated><id>https://radwan43.github.io/Radwan43//feed.xml</id><title type="html">Radwan’s Thoughts</title><subtitle>I dunno.</subtitle><entry><title type="html">First Post</title><link href="https://radwan43.github.io/Radwan43//example/2021/08/24/first-post.html" rel="alternate" type="text/html" title="First Post" /><published>2021-08-24T00:00:00+02:00</published><updated>2021-08-24T00:00:00+02:00</updated><id>https://radwan43.github.io/Radwan43//example/2021/08/24/first-post</id><content type="html" xml:base="https://radwan43.github.io/Radwan43//example/2021/08/24/first-post.html">&lt;h1 id=&quot;welcome-message&quot;&gt;Welcome Message!&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;h2 id=&quot;through-me-you-go-into-a-city-of-weeping-through-me-you-go-into-eternal-pain-through-me-you-go-amongst-the-lost-people&quot;&gt;Through me you go into a city of weeping; through me you go into eternal pain; through me you go amongst the lost people&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Dante Alighieri, The Inferno&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;let-me-flex-a-lil-bit&quot;&gt;Let me flex a lil bit&lt;/h1&gt;
+
+&lt;p&gt;I coded this blog becasue simply i was bored, and I wanted a blog. So in less than an hour I got this up and running.&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-details&quot;&gt;Technical Details&lt;/h2&gt;
+
+&lt;p&gt;Hosted by Github Pages, because I don’t wanna pay for a crappy host that I won’t use anyway, and the “Github.io” domain sits the nerdy theme for the blog.&lt;/p&gt;
+
+&lt;h2 id=&quot;just-another-text&quot;&gt;Just another text&lt;/h2&gt;
+&lt;p&gt;Okay, you got it now. I’m run outta ideas to write. Bye!&lt;/p&gt;</content><author><name></name></author><category term="example" /><summary type="html">Welcome Message! Through me you go into a city of weeping; through me you go into eternal pain; through me you go amongst the lost people Dante Alighieri, The Inferno</summary></entry></feed>
