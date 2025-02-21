@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{POST_TITLE}}</title>
+    <style>
+        @font-face {
+            font-family: 'EB Garamond';
+            src: url('fonts/EBGaramond-VariableFont_wght.ttf') format('truetype-variations');
+            font-weight: 100;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'EB Garamond';
+            src: url('fonts/EBGaramond-Italic-VariableFont_wght.ttf') format('truetype-variations');
+            font-weight: 100;
+            font-style: italic;
+        }
+
+        body {
+            font-family: 'EB Garamond', serif;
+            background-color: #FFFCF3;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #000;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .site-title {
+            font-size: 32px;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        .site-title a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .divider {
+            border-top: 1px solid #000;
+            margin: 20px 0 40px 0;
+        }
+
+        .article-title {
+            font-size: 28px;
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .article-date {
+            text-align: center;
+            color: #777;
+            margin-bottom: 30px;
+        }
+
+        .article-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .article-content p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        footer {
+            margin-top: 100px;
+            text-align: center;
+            color: #777;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #777;
+            text-decoration: none;
+        }
+
+        footer span {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="site-title"><a href="../index.html">The Radwanian Affairs</a></h1>
+        <nav>
+            <a href="../index.html">Home</a>
+        </nav>
+    </header>
+
+    <div class="divider"></div>
+
+    <article>
+        <h1 class="article-title">{{POST_TITLE}}</h1>
+        <div class="article-date">{{POST_DATE}}</div>
+
+        <div class="article-content">
+            {{POST_CONTENT}}
+        </div>
+    </article>
+
+    <footer>
+        <a href="#">Email</a>
+        <span>•</span>
+        <a href="#">RSS</a>
+        <span>•</span>
+        <span>All code snippets are under 0BSD license</span>
+        <span>•</span>
+        <a href="#">Source</a>
+    </footer>
+</body>
+</html>
