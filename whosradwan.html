@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Radwan</title>
+    <style>
+        @font-face {
+            font-family: 'EB Garamond';
+            src: url('fonts/EBGaramond-VariableFont_wght.ttf') format('truetype-variations');
+            font-weight: 50 100;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'EB Garamond';
+            src: url('fonts/EBGaramond-Italic-VariableFont_wght.ttf') format('truetype-variations');
+            font-weight: 50 100;
+            font-style: italic;
+        }
+
+        body {
+            font-family: 'EB Garamond', serif;
+            font-weight: 100;
+            background-color: #FFFCF3;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            display: flex;         /* Enable flexbox layout for body */
+            flex-direction: column; /* Arrange body children in a column */
+            min-height: 100vh;    /* Ensure body is at least viewport height */
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #000;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .blog-title {
+            font-size: 32px;
+            font-weight: 50;
+            margin: 0;
+        }
+        .blog-subtitle {
+            font-size: 20px;
+            margin-top: 5px;
+            font-style: italic;
+            font-weight: normal;
+        }
+        .header-links {
+            display: flex;
+            gap: 30px;
+        }
+        .header-links a {
+            text-decoration: none;
+            color: #777;
+        }
+        .features-heading {
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        .article-list {
+            margin-top: 20px;
+        }
+        .article-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            align-items: baseline;
+        }
+        .article-title {
+            font-size: 30px;
+            font-style: italic;
+            font-weight: 100;
+            margin: 0;
+            text-align: center;
+
+        }
+        .article-title a{
+            color: #3B3B3B            ;
+        }
+        .article-date {
+            color: #777;
+        }
+        main {
+            flex: 1; /* Allow main to grow and take available space - Sticky Footer fix */
+        }
+        footer {
+            text-align: center;
+            color: #777;
+        }
+        footer a {
+            text-align: center;
+            color: #777;
+        }
+
+        footer span {
+            margin: 0 10px;
+        }
+
+        .responsive-img {
+  max-width: 50%;
+  height: auto;
+}
+
+
+    .article-content {
+            font-size: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .article-content p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .article-quote {
+            max-width: 600px;
+            margin: 30px auto;
+            text-align: center;
+            padding: 20px;
+            border-left: 3px solid #777;
+            border-right: 3px solid #777;
+            font-style: italic;
+            color: #555;
+            position: relative;
+            font-size: 20px;
+        }
+
+        .article-quote p {
+            margin-bottom: 10px;
+        }
+
+        .quote-attribution {
+            text-align: right;
+            font-size: 16px;
+            margin-top: 10px;
+            font-style: normal;
+            color: #777;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="blog-title"><a href="index.html" style="text-decoration: none; color: inherit;">The Radwanian Affairs</a></h1>
+            <h2 class="blog-subtitle">A blog by Mahmoud Radwan</h2>
+        </div>
+        <div class="header-links">
+            <a href="#">But who's Radwan?</a>
+            <a href="#">The Basement</a>
+            <a href="#">EN / AR</a>
+        </div>
+    </header>
+
+    <h1 class="article-title">Wait a sec.. Who's Radwan?</h1>
+    <div style="text-align: center; margin-top: 30px;">
+    <img src="images/dante1.jpg" class="responsive-img">
+    <h3 class="features-heading">In the middle of the journey of our life I came to myself within a dark wood where the straight way was lost.</h3>
+    </div>
+    <div class="quote-attribution">— Inferno, Canto I</div>
+
+    <h2 class="features-heading">Who am I?</h2>
+    <div class="article-content">
+        <p>I'm a 20-something-year-old computer engineering student, who also works in marketing and social media—and I'm so good at it—so it's kinda complicated. Being me isn't easy, but it's not that hard either, to be honest, I'm blessed 90% of the time; the other 10% is spent fixing the consequences of impulsive decisions or fighting hangover demons after only a couple of hours of sleep.
+            Besides being a computer nerd, I'm also a poetry one. <b>I spent 2,000 hours watching YouTube videos</b> last year, so if you have a niche, there's a high probability we can discuss it for hours.
+            My childlike wonder never faded. Everything in the world and every advancement humanity has made still amazes me. I mean... we fly in tin cans, we listen to music—other people's voices—through plastic, we made sand do calculations, and we reached the fucking moon... that one in the fucking sky!  </p>
+    </div>
+    <h2 class="features-heading">For whom is this page?</h2>
+    <div class="article-content">
+        <p>This page, and this blog in general is for everyone who wants to know me more, I'm not that expressive of my opinions or myself in general on Twitter, you'll rarely see me posting on Instagram and if you ever could have me for a conversation in university you're one of the chosen ones. If I give you this page after a date then congratulations! We'll go on another, you seem like an interesting person to me and I'd like you to know me better.</p>
+    </div>
+<h2 class="features-heading">Why am I still alive?</h2>
+<div class="article-content">
+    <p>I appreciate the question, and while staying alive is something still questionable, I don't think I'm pulling the trigger any time soon. I go with the "هو دا الموجود" or "<em>This is what you got, deal with it</em>" philosophy, I had my Nietzsche phase a while back and I overgrew it, but he coined the Amor Fati term for me, so I'm sharing this excerpt because the german knew how to explain it better:
+
+    </p>
+</div>
+<div class="article-quote">
+    <p>I want to learn more and more to see as beautiful what is necessary in things; then I shall be one of those who makes things beautiful. <em>Amor fati</em>: let that be my love henceforth! I do not want to wage war against what is ugly. I do not want to accuse; I do not even want to accuse those who accuse. <em>Looking away</em> shall be my only negation. And all in all and on the whole: some day I wish to be only a Yes-sayer.</p>
+    <div class="quote-attribution">— Friedrich Nietzsche, The Gay Science</div>
+</div>
+</article>
+
+<h2 class="features-heading">Relationships</h2>
+<div class="article-content">
+    <p>First of all, I’m not great at texting. I tend to be a late replier and often go off the grid for a while, but if you’re someone close, you’ll know how to reach me. I truly value friendships and respect them (the French having “fraternité” in their national motto is their only W in my opinion). I also enjoy good company, so feel free to slide into my DMs, and we can meet up over your drink of choice. And if you're an introvert, don’t worry.. I’ll break the ice to put it in our drinks :D 
+    </p>
+    <p>
+        I like to keep my friendships low-maintenance, so we could go months without talking, and when we do catch up, it’ll feel like no time has passed. Just don’t set expectations too high when it comes to how often we interact. 
+    </p>
+</div>
+
+<h2 class="features-heading">Religion</h2>
+<div class="article-quote">
+    <p>For twisted are were and will be the paths of the miracle.</p>
+    <div class="quote-attribution">— Deogracias, Blasphemous</div>
+</div>
+<div class="article-content">
+    I'm a muslim, but I don't engage in religious discussions. Mostly because I got my own version of Islam and I'm not interested in sharing it. I was a jew 3000 years ago, and I was christian a 1000 years after, it's about finding god, and I'm lucky enough that I can find him everywhere. You can feel free around me I won't judge you, because lol.. most probably we'll be engaged in the same "sin". 
+</div>
+
+<h2 class="features-heading">To be continued....</h2>
+
+
+<footer>
+    <a href="mailto:RadwanHQ@Gmail.com">Email</a>
+    <span>•</span>
+    <a href="#">RSS</a>
+    <span>•</span>
+    <span>All code snippets are under 0BSD license</span>
+    <span>•</span>
+    <a href="https://github.com/Radwan43/Radwan43.github.io">Source</a>
+</footer>
+
+</body>
+</html>
