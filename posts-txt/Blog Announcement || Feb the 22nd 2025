@@ -1,4 +1,4 @@
-“I didn't kill myselfwhen things went wrongI didn't turnto drugs or teachingI tried to sleepbut when I couldn't sleepI learned to writeI learned to writewhat might be readon nights like thisby one like me”
+“I didn't kill myself when things went wrong I didn't turnto drugs or teaching I tried to sleep but when I couldn't sleep I learned to write I learned to write what might be readon nights like this by one like me”
 
 - Leonard Cohen 
 
@@ -6,10 +6,10 @@ This is my fourth blog in, what, three years? From Jekyll to WordPress to MicroB
 
 It’s not a finished project by any means—yet—but in its current state, it’s a fully functional blog. No JavaScript, just pure HTML files with baked-in styles, and it’ll stay that way. I haven’t tested compatibility with older browsers yet, but it should be fine. The only downside is that you can’t disable SSL/TLS for GitHub Pages, which means my 26-year-old iMac G3 won’t be able to view this page. But I’m not really in the mood to spin up a custom hosting solution—maybe a future project with a Raspberry Pi or something.
 
-I plan to add an Arabic section for when I feel like writing in Arabic. The "Who’s Radwan?" section is still pending updates (Update: It's live now), but I’m not sure how much info I can share before I start doxxing myself online. As for the basement? Well, it’ll be a basement—home to my darker ideas and entries.
+I plan to add an Arabic section for when I feel like writing in Arabic. The "Who’s Radwan?" section is still pending updates, but I’m not sure how much info I can share before I start doxxing myself online. As for the basement? Well, it’ll be a basement—home to my darker ideas and entries.
 
 The source is available on GitHub. All anyone needs to do is change the blog name, and voilà—they’re ready to go. It’s not a solution for non-techies, but I’m pretty sure any monkey with basic coding experience can make this their own in less than five minutes.
 
-Shoutout to LLMs and GitHub Pages for making this a reality—and to Tokhy for inspiring me to do it.
+Shoutout to LLMs and GitHub Pages for making this a reality, and to Tokhy for inspiring me to do it.
 
 Ciao!
